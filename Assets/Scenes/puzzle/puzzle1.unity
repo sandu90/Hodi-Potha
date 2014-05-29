@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 188710597}
   - 212: {fileID: 188710596}
+  - 50: {fileID: 188710599}
+  - 114: {fileID: 188710598}
   m_Layer: 0
   m_Name: puz2
   m_TagString: Untagged
@@ -174,6 +176,32 @@ Transform:
   m_LocalScale: {x: .829937577, y: .829936981, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &188710598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188710595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34de5bbbf813837449f5f60b00ebfbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &188710599
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188710595}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &363707825
 GameObject:
   m_ObjectHideFlags: 0
