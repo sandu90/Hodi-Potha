@@ -19,14 +19,16 @@ public class Path : MonoBehaviour {
 			if(touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled) {
 				Vector3 touchPosition=Camera.main.ScreenToWorldPoint(touch.position);
 				touchPosition.z=0;
-				pen=Instantiate(pointerPrefab,touchPosition,Quaternion.identity);
-				path.AddLast(pen);
+				if(touchPosition.x>=-2.9 && touchPosition.x<=2.6) {
+					pen=Instantiate(pointerPrefab,touchPosition,Quaternion.identity);
+					path.AddLast(pen);
+				}
 			}
 
 			else {
 
 				//wait 2s before destroying the path
-				System.Threading.Thread.Sleep(2000);
+				System.Threading.Thread.Sleep(1500);
 
 				foreach (Object pen in path) {
 					DestroyObject(pen);
