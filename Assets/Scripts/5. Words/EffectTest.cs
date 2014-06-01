@@ -23,7 +23,7 @@ public class EffectTest : MonoBehaviour {
 					Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
 					position.z = 0; // Make sure the trail is visible
 					
-					GameObject trail = Effect.MakeTrail(position);
+					GameObject trail = Effect.trailMaker(position);
 					
 					if (trail != null)
 					{
