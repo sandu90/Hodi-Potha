@@ -5,12 +5,12 @@ using System.Collections.Generic;
 public class EffectTest : MonoBehaviour {
 	
 	private Dictionary<int, GameObject> trails = new Dictionary<int, GameObject>();
-	// Use this for initialization
+
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		for (int i = 0; i < Input.touchCount; i++) {
 			Touch touch = Input.GetTouch(i);
@@ -41,9 +41,10 @@ public class EffectTest : MonoBehaviour {
 					
 					Camera.main.ScreenToWorldPoint(touch.position);
 					Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
-					position.z = 0; // Make sure the trail is visible
+					position.z = 20; 
 					
 					trail.transform.position = position;
+					print("drawing");
 				}
 			}
 			else if (touch.phase == TouchPhase.Ended)
@@ -55,9 +56,11 @@ public class EffectTest : MonoBehaviour {
 					
 					// Let the trail fade out
 					//Destroy(trail, trail.GetComponent<TrailRenderer>().time);
-					Destroy(trail, 5);
+					Destroy(trail,1);
 					trails.Remove(i);
+
 				}
+				Application.LoadLevel(1);
 			}
 		} // end of for
 	}
