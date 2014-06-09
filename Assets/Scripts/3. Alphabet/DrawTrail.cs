@@ -42,9 +42,18 @@ public class DrawTrail : MonoBehaviour {
 					Camera.main.ScreenToWorldPoint(touch.position);
 					Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
 					position.z = 20; // Make sure the trail is visible
-					
+
+
+					// testing collider
+					Vector2 position2D=new Vector2(position.x,position.y);
+					if(collider2D == Physics2D.OverlapPoint(position2D)) {
+						print ("collided");
+					}
+					else
+						print("not working");
+
 					trail.transform.position = position;
-					print("drawing");
+					//print("drawing");
 				}
 			}
 			else if (touch.phase == TouchPhase.Ended)
