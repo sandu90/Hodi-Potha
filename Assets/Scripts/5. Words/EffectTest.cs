@@ -60,8 +60,9 @@ public class EffectTest : MonoBehaviour {
 					trails.Remove(i);
 
 				}
-				Application.LoadLevel(1);
+
 			}
 		} // end of for
+		Application.LoadLevel(1);
 	}
 }
