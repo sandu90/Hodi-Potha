@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Hodi-Potha
+  productName: Hodi Potha
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -73,14 +73,10 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-<<<<<<< HEAD
-  iPhoneBundleIdentifier: com.Company.ProductName
-=======
   iPhoneBundleIdentifier: com.Company.try1
->>>>>>> 60f167f0a29d9a45ab0a95eaf3b5ee16f8b06ff0
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: 3bfc13322355cad49809f037c694e6b8
+  productGUID: de64c2cbf0682af4a8f206a29607e54f
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
@@ -113,7 +109,11 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -153,7 +153,7 @@ PlayerSettings:
   flashStrippingLevel: 2
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
-  metroPackageName: Hodi-Potha
+  metroPackageName: Hodi Potha
   metroPackageLogo: 
   metroPackageVersion: 
   metroCertificatePath: 
@@ -161,7 +161,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Hodi-Potha
+  metroApplicationDescription: Hodi Potha
   metroTileLogo: 
   metroTileWideLogo: 
   metroTileSmallLogo: 
