@@ -33,7 +33,7 @@ public class SpecialEffects : MonoBehaviour {
 
 	public static void MakeExplotion()
 	{
-		print ("calling oky");
+		//print ("calling oky");
 
 		ParticleSystem effect = Instantiate (instance.explotionPrefab) as ParticleSystem;
 

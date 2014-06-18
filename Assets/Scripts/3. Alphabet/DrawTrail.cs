@@ -53,6 +53,11 @@ public class DrawTrail : MonoBehaviour {
 					Camera.main.ScreenToWorldPoint(touch.position);
 					Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
 					position.z = 20; // Make sure the trail is visible
+<<<<<<< HEAD
+					
+					trail.transform.position = position;
+					print("drawing");
+=======
 
 
 					//Colliders that a user touch when tracing
@@ -71,6 +76,7 @@ public class DrawTrail : MonoBehaviour {
 					//vibration --> WORKING, but can't control the intensity
 					//Handheld.Vibrate();
 					//print("drawing");
+>>>>>>> e9e0e35143244ea0cde860daf16f1463db3d34a6
 				}
 			}
 			else if (touch.phase == TouchPhase.Ended)

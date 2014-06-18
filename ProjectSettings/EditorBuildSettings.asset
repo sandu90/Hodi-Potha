@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/3.Alphabet/Akuru Liyamu.unity
+    path: Assets/Scenes/2.Alphabet/Akuru Liyamu.unity
   - enabled: 0
-    path: Assets/Scenes/3.Alphabet/Akuru Liyamu1.unity
+    path: Assets/Scenes/2.Alphabet/Akuru Liyamu1.unity
+  - enabled: 0
+    path: Assets/Scenes/1.Shapes/bug.unity
+    path: Assets/Scenes/words/mainInterface.unity
+  - enabled: 0
+    path: Assets/Scenes/words/rata.unity
+    path: Assets/Scenes/words/ala.unity
   - enabled: 1
     path: Assets/Scenes/1.Shapes/1.1rain.unity
+    path: Assets/Scenes/words/alaImage.unity
+  - enabled: 1
+    path: Assets/Scenes/words/rataImage.unity
