@@ -15,6 +15,9 @@ public class rata_audio : MonoBehaviour {
 					}
 				}
 			}
+		if(Input.GetKeyDown(KeyCode.Escape)) 
+			Application.Quit();
 
 	}
+
 }

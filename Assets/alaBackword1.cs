@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class backword_button : MonoBehaviour {
+public class alaBackword1 : MonoBehaviour {
 	
 	public AudioClip sound;
 	// Update is called once per frame
@@ -10,7 +10,7 @@ public class backword_button : MonoBehaviour {
 		for(int i=0;i<Input.touchCount;i++){
 			if(this.guiTexture.HitTest(Input.GetTouch(i).position)){
 				if(Input.GetTouch(i).phase==TouchPhase.Began){
-					Application.LoadLevel("rata");
+					Application.LoadLevel("mainInterface");
 					
 				}
 			}

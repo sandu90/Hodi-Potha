@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class backword_button : MonoBehaviour {
+public class bckwordRata2 : MonoBehaviour {
 	
 	public AudioClip sound;
 	// Update is called once per frame
