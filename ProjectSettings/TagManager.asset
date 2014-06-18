@@ -45,3 +45,7 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: bg
+    userID: 2
+    uniqueID: 605203693
+    locked: 0
