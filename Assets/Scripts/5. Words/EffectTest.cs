@@ -56,13 +56,17 @@ public class EffectTest : MonoBehaviour {
 					
 					// Let the trail fade out
 					//Destroy(trail, trail.GetComponent<TrailRenderer>().time);
-					Destroy(trail,1);
-					trails.Remove(i);
+									Destroy(trail,5);
+									trails.Remove(i);
+					//Application.LoadLevel(1);
 
 				}
 
 			}
 		} // end of for
-		Application.LoadLevel(1);
+		//Application.LoadLevel("rataImage");
+		if (Input.GetKeyDown(KeyCode.Escape)) 
+			//Application.Quit();
+			Application.LoadLevel("mainInterface");
 	}
 }

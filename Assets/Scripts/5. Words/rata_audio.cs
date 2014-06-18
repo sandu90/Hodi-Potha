@@ -11,7 +11,7 @@ public class rata_audio : MonoBehaviour {
 				if(this.guiTexture.HitTest(Input.GetTouch(i).position)){
 					if(Input.GetTouch(i).phase==TouchPhase.Began){
 						audio.PlayOneShot(sound);
-					//this.SendMessage("OnTuchBegan");
+
 					}
 				}
 			}
