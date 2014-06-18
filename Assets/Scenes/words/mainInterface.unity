@@ -120,8 +120,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 12988811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.19413233, y: 2.19413829, z: 1}
+  m_LocalPosition: {x: .733417511, y: -.510559082, z: 0}
+  m_LocalScale: {x: 2.05405903, y: 2.05406642, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &831321146
@@ -259,12 +259,12 @@ Camera:
     x: 0
     y: 0
     width: .779999971
-    height: .610000014
+    height: .800000012
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.10136032
+  orthographic size: 7.53455305
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -280,7 +280,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1855278597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: .609874666, y: -.47918722, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -312,10 +312,10 @@ GUITexture:
   m_Color: {r: .4627451, g: .525490224, b: .643137276, a: .501960814}
   m_PixelInset:
     serializedVersion: 2
-    x: -64
-    y: -39.5
-    width: 80
-    height: 50
+    x: -33.7999992
+    y: -46
+    width: 79.0999985
+    height: 49.8499985
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
